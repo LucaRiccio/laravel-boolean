@@ -24,3 +24,35 @@
   }
 
 }
+
+.titolo-studenti {
+  margin-top: 80px;
+  h2{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #006cfa;
+  }
+  h4{
+    color: #001632;
+    font-weight: bold;
+  }
+}
+
+.card-group {
+  margin-top: 80px;
+  .card-img-top {
+    width:200px;
+    height: 200px;
+  }
+  .card-title {
+    color: #0cd977;
+
+  }
+  .card-text {
+    color: #001632;
+    font-weight: bold;
+  }
+  .descrizione {
+    font-weight: normal;
+  }
+}

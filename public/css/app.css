@@ -10956,3 +10956,40 @@ a.text-dark:focus {
   background-color: #0cd977;
 }
 
+.titolo-studenti {
+  margin-top: 80px;
+}
+
+.titolo-studenti h2 {
+  font-size: 45px;
+  font-weight: bolder;
+  color: #006cfa;
+}
+
+.titolo-studenti h4 {
+  color: #001632;
+  font-weight: bold;
+}
+
+.card-group {
+  margin-top: 80px;
+}
+
+.card-group .card-img-top {
+  width: 200px;
+  height: 200px;
+}
+
+.card-group .card-title {
+  color: #0cd977;
+}
+
+.card-group .card-text {
+  color: #001632;
+  font-weight: bold;
+}
+
+.card-group .descrizione {
+  font-weight: normal;
+}
+
