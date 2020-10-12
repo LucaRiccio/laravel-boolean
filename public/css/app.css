@@ -10993,3 +10993,37 @@ a.text-dark:focus {
   font-weight: normal;
 }
 
+footer .foot {
+  color: white;
+  background-color: #001632;
+}
+
+footer .foot img {
+  display: block;
+  padding: 50px 0px 30px 50px;
+}
+
+footer .operativa {
+  display: inline-block;
+  margin-left: 50px;
+  list-style: none;
+}
+
+footer .azienda {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+footer .azienda ul {
+  list-style: none;
+}
+
+footer .domande {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+footer .domande ul {
+  list-style: none;
+}
+

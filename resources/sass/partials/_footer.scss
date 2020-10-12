@@ -1,1 +1,33 @@
+footer {
+  .foot {
+    color: white;
+    background-color: #001632;
+    img {
+      display: block;
 
+      padding: 50px 0px 30px 50px;
+    }
+  }
+
+  .operativa {
+    display: inline-block;
+    margin-left: 50px;
+    list-style: none;
+  }
+
+  .azienda {
+    display: inline-block;
+    margin-left: 50px;
+    ul{
+      list-style: none;
+    }
+  }
+
+  .domande {
+    display: inline-block;
+    margin-left: 50px;
+    ul{
+      list-style: none;
+    }
+  }
+}
