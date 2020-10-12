@@ -1,0 +1,26 @@
+.jumbotron {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  margin-left: 50px;
+  background-color: white;
+  h1 {
+    color: #0cd977;
+    font-weight: bolder;
+  }
+  .lead {
+    color:#001632;
+    font-weight: bold;
+  }
+  p{
+    color: #001632
+  }
+  button{
+    color: #0cd977;
+    border-color: #0cd977;
+    &:hover {
+      background-color: #0cd977;
+    }
+  }
+
+}

@@ -1,0 +1,18 @@
+.navbar {
+  img{
+    width: 145px;
+    height: 30px;
+    margin-left: 65px;
+  }
+  button{
+
+    color: #0cd977;
+    border-color: #0cd977;
+    &:hover {
+      background-color: #0cd977;
+    }
+  }
+  .nav-link{
+    margin-right: 20px;
+  }
+}

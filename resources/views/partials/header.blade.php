@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#"> <img src="https://www.boolean.careers/images/misc/logo.png" alt="">  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -14,6 +14,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{{route('Student.studenti')}}">Studenti</a>
       </li>
+      <button type="button" class="btn btn-lg btn-outline-success">Candidati ora</button>
     </ul>
   </div>
 </nav>
