@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('titolo','studenti')
+@section('titolo','Show')
 
 @section('content')
 
@@ -11,15 +11,15 @@
   </div>
 
   <div class="card-group">
-    @foreach ($data as $key=> $student)
+
     <div class="card">
       <img src="{{$student['img']}}" class="card-img-top" alt="{{$student['nome']}}">
       <div class="card-body">
-        <a href="{{ route('Student.show',['id' => $key])}}"><h5 class="card-title">{{$student['nome']}} ({{$student['eta']}} anni)</h5></a> 
+        <h5 class="card-title">{{$student['nome']}} ({{$student['eta']}} anni)</h5>
         <p class="card-text">Assunt{{($student['genere'] == 'f' ? 'a' : 'o')}} da {{$student['azienda']}}</p>
         {{-- <p class="card-text descrizione">{{$student['descrizione']}}</p> --}}
       </div>
     </div>
-    @endforeach
+
 </div>
 @endsection
